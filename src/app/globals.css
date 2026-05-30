@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --vesak-gold: #f5c842;
+  --vesak-amber: #e8a020;
+  --vesak-deep: #0a1628;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--vesak-deep);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  color: #f5e6c8;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+::selection {
+  background: rgba(245, 200, 66, 0.35);
+}
